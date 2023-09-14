@@ -1,7 +1,7 @@
 # SteamGifts-Enhanced-Giveaways
 A Userscript created for the website [SteamGifts.com](https://www.steamgifts.com).
 <br>
-This script has numerous amount of QoL additions, changes, fixes, user customization, better site navigation.
+This script has a numerous amount of QoL additions, changes, fixes, user customization, better site navigation.
 
 ## Features.
 * Giveaway pages are zoomed out by default by 80%. *__- You can see more giveaways.__*
