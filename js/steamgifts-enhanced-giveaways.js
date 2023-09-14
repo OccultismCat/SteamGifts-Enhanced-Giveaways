@@ -2,7 +2,7 @@
 // @name         SteamGifts-Enhanced-Giveaways
 // @namespace    https://github.com/OccultismCat/SteamGifts-Enhanced-Giveaways/
 // @version      0.0.1
-// @description  A script to make improvements to the steamgifts.com giveaways tab.
+// @description  A Userscript created for the website SteamGifts.com. This script has a numerous amount of QoL additions, changes, fixes, user customization, better site navigation.
 // @author       OccultismCat
 // @license      CC-BY-ND-4.0
 // @github       https://github.com/OccultismCat/SteamGifts-Enhanced-Giveaways/
@@ -20,7 +20,7 @@
     function edit_body(){
         var site_body = document.querySelector("body");
         if (site_body){
-            site_body.style = 'zoom: 80%;';
+            site_body.style = 'zoom: 70%;';
             console.debug('Finished customizing "Body" element!');
         };
     }
@@ -167,29 +167,37 @@
             sessionStorage.removeItem('auto_join_giveaway')
         }
     }
-    const giveaway_links = [
-        'https://www.steamgifts.com/',
-        'https://www.steamgifts.com/giveaways/search/.*',
-        'https://www.steamgifts.com/giveaways/search?type=wishlist',
-        'https://www.steamgifts.com/giveaways/search?type=recommended',
-        'https://www.steamgifts.com/giveaways/search?copy_min=2',
-        'https://www.steamgifts.com/giveaways/search?dlc=true',
-        'https://www.steamgifts.com/giveaways/search?type=group',
-        'https://www.steamgifts.com/giveaways/search?type=new',
-    ]
+    const website_links = {
+        giveaway_pages: {
+            regex_match: /^https:\/\/www\.steamgifts\.com\/giveaways\/search\?page=.*/,
+            array_match: [
+                'https://www.steamgifts.com/',
+                'https://www.steamgifts.com/giveaways/search/.*',
+                'https://www.steamgifts.com/giveaways/search?type=wishlist',
+                'https://www.steamgifts.com/giveaways/search?type=recommended',
+                'https://www.steamgifts.com/giveaways/search?copy_min=2',
+                'https://www.steamgifts.com/giveaways/search?dlc=true',
+                'https://www.steamgifts.com/giveaways/search?type=group',
+                'https://www.steamgifts.com/giveaways/search?type=new',
+            ]
+        },
+        giveaway_page: {
+            regex_match: /^https:\/\/www\.steamgifts\.com\/giveaway\/.*/
+        }
+    }
     window.addEventListener('load', () => {
         console.clear();
         console.debug('SteamGifts-Enhanced-Giveaways Loaded!\n\u2800');
         // make function's that checks for the links & excute corresponding funtion's to shortern the code below
-        if (giveaway_links.includes(window.location.href) || window.location.href.match(/^https:\/\/www\.steamgifts\.com\/giveaways\/search\?page=.*/)){
+        if (website_links.giveaway_pages.array_match.includes(window.location.href) || window.location.href.match(website_links.giveaway_pages.regex_match)){
             edit_body();
             customize_sidebar();
             edit_featured_giveaway();
             remove_bundle_ads();
             create_auto_join_button();
-            create_auto_refresh(60);
+            create_auto_refresh(30);
         }
-        if (window.location.href.match(/^https:\/\/www\.steamgifts\.com\/giveaway\/.*/)){
+        if (window.location.href.match(website_links.giveaway_page.regex_match)){
             console.debug(sessionStorage.getItem('auto_join_giveaway'))
             finish_auto_join_giveaway();
         }
