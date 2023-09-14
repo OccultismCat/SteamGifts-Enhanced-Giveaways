@@ -11,7 +11,7 @@ This script has a numerous amount of QoL additions, changes, fixes, user customi
 
 ## Install.
 **<ins>1st Method.</ins>**
-* Install Userscript from [GreasyFork.org (!NOT-UPLOADED-YET!)](https://greasyfork.org/en/scripts/) with [TamperMonkey](https://www.tampermonkey.net).
+* Install Userscript from [GreasyFork.org](https://greasyfork.org/en/scripts/475287-steamgifts-enhanced-giveaways) with [TamperMonkey](https://www.tampermonkey.net).
 
 **<ins>2nd Method.</ins>**
 * Copy and paste the code from [steamgifts-enhanced-giveaways.js](https://raw.githubusercontent.com/OccultismCat/SteamGifts-Enhanced-Giveaways/main/js/steamgifts-enhanced-giveaways.js) into a new empty userscript with [TamperMonkey](https://www.tampermonkey.net) then save it.
