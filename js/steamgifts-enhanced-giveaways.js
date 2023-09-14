@@ -75,7 +75,7 @@
     function customize_sidebar(){
         var sidebar = document.querySelector('[class="page__inner-wrap"]');
         if (sidebar){
-            sidebar.children[0].children[0].style = 'display: none;';
+            sidebar.children[0].children[0].style = ''; //'display: none;';
             console.debug('Finished customizing "Sidebar" element!');
         }
     }
@@ -183,7 +183,7 @@
         // make function's that checks for the links & excute corresponding funtion's to shortern the code below
         if (giveaway_links.includes(window.location.href) || window.location.href.match(/^https:\/\/www\.steamgifts\.com\/giveaways\/search\?page=.*/)){
             edit_body();
-            //customize_sidebar();
+            customize_sidebar();
             edit_featured_giveaway();
             remove_bundle_ads();
             create_auto_join_button();
