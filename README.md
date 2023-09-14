@@ -11,6 +11,8 @@ This script has a numerous amount of QoL additions, changes, fixes, user customi
 
 ## Previews.
 ![SteamGifts-Enhanced-Giveaways-Preview-1](https://raw.githubusercontent.com/OccultismCat/SteamGifts-Enhanced-Giveaways/main/resources/previews/SteamGifts-Enhanced-Giveaways-Preview-1.png)
+![SteamGifts-Enhanced-Giveaways-Preview-2](https://raw.githubusercontent.com/OccultismCat/SteamGifts-Enhanced-Giveaways/main/resources/previews/SteamGifts-Enhanced-Giveaways-Preview-2.png)
+![SteamGifts-Enhanced-Giveaways-Preview-Join-Button](https://raw.githubusercontent.com/OccultismCat/SteamGifts-Enhanced-Giveaways/main/resources/previews/SteamGifts-Enhanced-Giveaways-Preview-Join-Button.gif)
 
 ## Install.
 **<ins>1st Method.</ins>**
