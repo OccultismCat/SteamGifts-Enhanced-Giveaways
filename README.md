@@ -9,13 +9,6 @@ This script has a numerous amount of QoL additions, changes, fixes, user customi
 * Giveaway pages shows the current points balance of your account with every giveaway listed. *__- When scrolling down you can no longer see your points, helps with keeping track of them.__*
 * More things that I have didn't text yet cause I'm tired at the moment of doing this. <ins>Expect more features to be listed in the future.</ins>
 
-## Previews.
-![SteamGifts-Enhanced-Giveaways-Preview-1](https://raw.githubusercontent.com/OccultismCat/SteamGifts-Enhanced-Giveaways/main/resources/previews/SteamGifts-Enhanced-Giveaways-Preview-1.png)
-<br>
-![SteamGifts-Enhanced-Giveaways-Preview-2](https://raw.githubusercontent.com/OccultismCat/SteamGifts-Enhanced-Giveaways/main/resources/previews/SteamGifts-Enhanced-Giveaways-Preview-2.png)
-<br>
-![SteamGifts-Enhanced-Giveaways-Preview-Join-Button](https://raw.githubusercontent.com/OccultismCat/SteamGifts-Enhanced-Giveaways/main/resources/previews/SteamGifts-Enhanced-Giveaways-Preview-Join-Button.gif)
-
 ## Install.
 **<ins>1st Method.</ins>**
 * Install Userscript from [GreasyFork.org (!NOT-UPLOADED-YET!)](https://greasyfork.org/en/scripts/) with [TamperMonkey](https://www.tampermonkey.net).
@@ -31,3 +24,10 @@ This script has a numerous amount of QoL additions, changes, fixes, user customi
 5. Paste url from [step 4](https://raw.githubusercontent.com/OccultismCat/SteamGifts-Enhanced-Giveaways/main/js/steamgifts-enhanced-giveaways.js) into "Import from URL".
 6. Click "Install".
 7. Click "Install" again.
+
+## Previews.
+![SteamGifts-Enhanced-Giveaways-Preview-1](https://raw.githubusercontent.com/OccultismCat/SteamGifts-Enhanced-Giveaways/main/resources/previews/SteamGifts-Enhanced-Giveaways-Preview-1.png)
+<br>
+![SteamGifts-Enhanced-Giveaways-Preview-2](https://raw.githubusercontent.com/OccultismCat/SteamGifts-Enhanced-Giveaways/main/resources/previews/SteamGifts-Enhanced-Giveaways-Preview-2.png)
+<br>
+![SteamGifts-Enhanced-Giveaways-Preview-Join-Button](https://raw.githubusercontent.com/OccultismCat/SteamGifts-Enhanced-Giveaways/main/resources/previews/SteamGifts-Enhanced-Giveaways-Preview-Join-Button.gif)
