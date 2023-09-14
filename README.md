@@ -4,7 +4,7 @@ A Userscript created for the website [SteamGifts.com](https://www.steamgifts.com
 This script has a numerous amount of QoL additions, changes, fixes, user customization, better site navigation.
 
 ## Features.
-* Giveaway pages are zoomed out by default by 80%. *__- You can see more giveaways.__*
+* Giveaway pages are zoomed out by default by 70%. *__- You can see more giveaways.__*
 * Giveaway pages latest upcoming giveaway banner height is set to 200px. *__- You can see more giveaways.__*
 * Giveaway pages shows the current points balance of your account with every giveaway listed. *__- When scrolling down you can no longer see your points, helps with keeping track of them.__*
 * More things that I have didn't text yet cause I'm tired at the moment of doing this. <ins>Expect more features to be listed in the future.</ins>
