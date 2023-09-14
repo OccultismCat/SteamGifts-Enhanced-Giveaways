@@ -187,7 +187,7 @@
             edit_featured_giveaway();
             remove_bundle_ads();
             create_auto_join_button();
-            create_auto_refresh(15);
+            create_auto_refresh(60);
         }
         if (window.location.href.match(/^https:\/\/www\.steamgifts\.com\/giveaway\/.*/)){
             console.debug(sessionStorage.getItem('auto_join_giveaway'))
