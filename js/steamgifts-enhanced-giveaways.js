@@ -6,11 +6,11 @@
 // @author       OccultismCat
 // @license      CC-BY-ND-4.0
 // @github       https://github.com/OccultismCat/SteamGifts-Enhanced-Giveaways/
-// @homepage     https://greasyfork.org/en/scripts/
+// @homepage     https://greasyfork.org/en/scripts/475287-steamgifts-enhanced-giveaways
 // @supportURL   https://github.com/OccultismCat/SteamGifts-Enhanced-Giveaways/issues
-// @installURL   https://greasyfork.org/scripts/
-// @updateURL    null
-// @downloadURL  null
+// @installURL   https://greasyfork.org/scripts/475287-steamgifts-enhanced-giveaways/code/SteamGifts-Enhanced-Giveaways.user.js
+// @updateURL    https://greasyfork.org/scripts/475287-steamgifts-enhanced-giveaways/code/SteamGifts-Enhanced-Giveaways.user.js
+// @downloadURL  https://greasyfork.org/scripts/475287-steamgifts-enhanced-giveaways/code/SteamGifts-Enhanced-Giveaways.user.js
 // @icon         https://cdn.steamgifts.com/img/favicon.ico
 // @match        https://www.steamgifts.com
 // @match        https://www.steamgifts.com/*
